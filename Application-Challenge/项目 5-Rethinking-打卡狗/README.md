@@ -38,6 +38,9 @@ https://user-images.githubusercontent.com/8814535/185785003-8dbb5556-bfa4-486a-a
 后端已部署服务器
 自行部署: 修改config/config.default.js 数据库和声网相关配置key。
 
+核心模块集成了声网 agora-access-token 实时获取直播Token
+调用环信 REST API 处理建群，加群，创建用户等服务
+
 移动端架构：
 1. SwiftUI
 2. Combine
